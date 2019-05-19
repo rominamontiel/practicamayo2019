@@ -1,0 +1,35 @@
+#fotografia .contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fotografia{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#fotografia article{
+    max-width: 800px;
+}
+
+#fotografia h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    
+}
+
+#fotografia img{
+    width: 95%;
+    margin: 5px;
+}
+
+#fotografia h4{
+    margin-bottom: 17px;
+    font-size: 20px;
+}
+
+/* @media 
+
+para más de 2000px que los articulos ocupen 1000 px de ancho */
